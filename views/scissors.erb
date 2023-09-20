@@ -1,14 +1,14 @@
-<h2>We played rock!</h2>
+<h2>We played scissors!</h2>
 
 <% if @opp_hand == 1 %>
   <h2>They played rock!</h2>
-  <h2>We tied!</h2>
+  <h2>We lost!</h2>
 <% elsif @opp_hand == 2 %>
   <h2>They played paper!</h2>
-  <h2>We Lost!</h2>
+  <h2>We won!</h2>
 <% else %>
   <h2>They played scissors!</h2>
-  <h2>We won!</h2>
+  <h2>We tied!</h2>
 <% end %>
 
 <a href="/">Rules</a>
