@@ -6,7 +6,6 @@ get("/") do
 end
 
 get("/rock") do
-  #rock = 1 paper = 2 scissors = 3
-  
+  @opp_hand = rand(1..3)
   erb(:rock)
 end
